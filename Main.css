@@ -7,7 +7,7 @@ body {
   font-size: 14px;
   line-height: 1.4em;
   font-family: JetBrains Mono, georgia, palatino, serif;
-  
+  width: 100vw;
 }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 
@@ -57,29 +57,24 @@ p{
   text-align: center;
   display: inline-block;
 }
-.header table { width: 100%; height: 120px}
-.header td{ width: 5%;}
-#title_cell { vertical-align: bottom; }
-#icon_cell { text-align: center; }
 
-#icon_cell img {
-  max-width: 150px;
-  max-height: 150px;
-}
-#leng_cell {
-  text-align: right;
-}
-#leng_cell img {
-  max-width: 50px;
-  max-height: 50px;
-}
-#container {
-  max-width: 1366px;
-  margin: 0 auto;
-  background-image: url('Pages/media/Background.jfif');
-  background-repeat: no-repeat;
-  
+#icon_cell { 
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+
+#container {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  background-image: url('Pages/media/backgroundmain1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  
 }
 
 
