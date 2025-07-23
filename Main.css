@@ -45,7 +45,7 @@ p{
   text-align: center;
   display: inline-block;
 }
-.myDiv{
+.Header{
   
   background: #eee;
   max-width: 1366px;
@@ -63,7 +63,7 @@ p{
 }
 
 
-#container {
+#mainContainer {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
