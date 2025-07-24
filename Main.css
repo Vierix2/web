@@ -47,7 +47,7 @@ p{
 }
 .Header{
   
-  background: #eee;
+  background: #eeeeee98;
   max-width: 1366px;
   margin: 0 auto;
   text-align: center;
@@ -61,17 +61,34 @@ p{
   width: 100%;
   
 }
+#icon_cell img { 
+  border-radius: 100%;
+  
+}
+.bar{
+  position: sticky;
+  top: 0;
+}
+#landing {
+  background: #eee;
+  text-align: center;
+  display: inline-block;
+  height: 100vh;
+}
 
 
 #mainContainer {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
+  
+  width: 100vw;
+  
+}
+#p1{
   background-image: url('Pages/media/backgroundmain1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  
 }
 
 
@@ -90,7 +107,6 @@ p{
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 1.5s linear infinite;
