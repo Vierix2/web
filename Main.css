@@ -15,28 +15,35 @@ a, a:visited, a:active {color: #e2eef5; text-decoration: none;}
 h1, h3, p, a, li {
   font-family: JetBrains Mono, CiscoSans, helvetica, helvetica neue, verdana, tahoma, sans-serif;
 }
-h1 {
-  font-size: 30px;
-  font-weight: 100;
-  line-height: 35px;
-  color: #eee;
-        
-  
-  
-}
 
-h3 {
-  font-size: 9px;
-  font-weight: 400;
-  letter-spacing: 1px;
+#body1 {
+  background: #ffffff;
+  text-align: center;
+  display: inline-block;
+  height: 100vh;
+}
+#img1{
+  position: absolute;
+  top: 10vh;
+  right: 0vw;
+}
+#img1 img{
   
-  color: #222;
+  width: 25vw;   /* 50% of the viewport width */
+  height: auto;
+  
 }
-p{
-  color: #eee;
-  font-size: 16px;
+#img2{
+  position: absolute;
+  top: 40vh;
+  left: 0vw;
 }
-
+#img2 img{
+  
+  width: 18vw;   /* 50% of the viewport width */
+  height: auto;
+  
+}
 
 .main{
   background: #eee;
@@ -48,8 +55,8 @@ p{
 .Header{
   
   background: #eeeeee98;
-  max-width: 1366px;
-  margin: 0 auto;
+  
+  margin: 0;
   text-align: center;
   display: inline-block;
 }
@@ -63,6 +70,8 @@ p{
 }
 #icon_cell img { 
   border-radius: 100%;
+  width: 15%;
+  height: auto;
   
 }
 .bar{
