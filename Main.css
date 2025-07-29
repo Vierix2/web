@@ -79,7 +79,7 @@ h1, h3, p, a, li {
   top: 0;
 }
 #landing {
-  background: #eee;
+  background: #ffffff;
   text-align: center;
   display: inline-block;
   height: 100vh;
@@ -130,6 +130,7 @@ h1, h3, p, a, li {
 #maintext {
   text-align: center;
   display: inline-block;
+  width: 60vw;
 }
 
 #maintext a {
