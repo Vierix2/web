@@ -3,9 +3,9 @@ body {
   
   margin: 0;
   
-  color: #555;
+  color: #003cff;
   font-size: 14px;
-  line-height: 1.4em;
+  line-height: 1.2;
   font-family: JetBrains Mono, georgia, palatino, serif;
   width: 100vw;
 }
@@ -24,7 +24,7 @@ h1, h3, p, a, li {
 }
 #img1{
   position: absolute;
-  top: 10vh;
+  top: 20vh;
   right: 0vw;
 }
 #img1 img{
@@ -35,12 +35,23 @@ h1, h3, p, a, li {
 }
 #img2{
   position: absolute;
-  top: 40vh;
+  top: 75vh;
   left: 0vw;
 }
 #img2 img{
   
   width: 18vw;   /* 50% of the viewport width */
+  height: auto;
+  
+}
+#a1{
+  position: absolute;
+  bottom: 5vh;
+  left:50vw;
+}
+#a1 img{
+  
+  width: 5vw;   /* 50% of the viewport width */
   height: auto;
   
 }
@@ -62,17 +73,15 @@ h1, h3, p, a, li {
 }
 
 #icon_cell { 
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  
+
+  position: absolute;
+  top: 5vh;
+  left: 50vw;
 }
 #icon_cell img { 
   border-radius: 100%;
-  width: 15%;
+  width: 25vw;
   height: auto;
-  
 }
 .bar{
   position: sticky;
@@ -128,17 +137,15 @@ h1, h3, p, a, li {
   }
 }
 #maintext {
-  text-align: center;
-  display: inline-block;
-  width: 60vw;
+  position: absolute;
+  top: 50vh;
+  left:25vw;
+  
 }
 
-#maintext a {
-  
-  
+#maintext h1 {
   display: inline-block;
-  
-  
+  width: 50vw;
 }
 
   
