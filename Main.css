@@ -118,19 +118,37 @@ h1, h3, p, a, li {
   height: 100vh;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 0)20%, rgba(255, 255, 255, 0)80%, rgba(255, 255, 255, 0.8));
 }
-#text1 {
+
+
+@media (orientation: landscape) {
+  #vieri {
+  position: absolute;
+  top: 50vh;
+  left: 10vw;
+  }
+  #text1 {
   position: absolute;
   top: 50vh;
   left: 35vw;
   color: #ffffff;
   text-align: left;
+  }
 }
-#vieri {
+@media (orientation: portrait) {
+  #vieri {
   position: absolute;
-  top: 50vh;
+  top: 25vh;
+  left: 50vw;
+  }
+  #text1 {
+  position: absolute;
+  top: 60vh;
   left: 10vw;
+  color: #ffffff;
+  text-align: center;
+  width: 80vw;
+  }
 }
-
 
 .wrapper {
   text-align: center;
