@@ -103,12 +103,33 @@ h1, h3, p, a, li {
   width: 100vw;
   
 }
-#p1{
+#part1{
+  position: relative;
   background-image: url('Pages/media/backgroundmain1.png');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
-
+#gradient {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 0)20%, rgba(255, 255, 255, 0)80%, rgba(255, 255, 255, 0.8));
+}
+#text1 {
+  position: absolute;
+  top: 50vh;
+  left: 35vw;
+  color: #ffffff;
+  text-align: left;
+}
+#vieri {
+  position: absolute;
+  top: 50vh;
+  left: 10vw;
+}
 
 
 .wrapper {
