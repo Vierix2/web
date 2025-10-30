@@ -64,6 +64,16 @@ function variation(fn1, fn2) {
     window.addEventListener('load', runVariation);
     window.addEventListener('resize', runVariation);
 }
+function showPage(pageId, btn) {
+      // Hide all pages
+      document.querySelectorAll('.page').forEach(div => div.classList.remove('active'));
+      // Remove active class from all buttons
+      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+      // Show the selected page
+      document.getElementById(pageId).classList.add('active');
+      // Highlight the active button
+      btn.classList.add('active');
+    }
 // exeption for the #vieri element
 variation(
     [()=>dinamicsize(50, '#vieri'), 

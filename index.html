@@ -12,9 +12,15 @@
 <body>
   <script src="Main.Js"></script>
 
-  
-
-    <div id="mainContainer">
+    <div id="bar">
+      <nav>
+        <button id="nav1" class="active" onclick="showPage('Home', this)">Home</button>
+        <button id="nav2" onclick="showPage('page2', this)">Projects</button>
+        <button id="nav3" onclick="showPage('page3', this)">About</button>
+      </nav>
+    </div>
+    <!-- Home -->
+    <div id="Home" class="page active">
       <div id="landing">
 
       
@@ -32,18 +38,19 @@
       <div id="maintext">
         <h1>Welcome to the VixLab</h1>
       </div>
+
       <div id="img2">
         <img alt="2" src="Pages/media/img2.png">
       </div>
+
       <div id="a1">
         <img alt="a1" src="Pages/media/a1.png">
       </div>
+
       </div>
       
-    </div>
-    <div id="bar">
-
-    </div>
+      </div>
+    
     <div id="part1">
       <div id="gradient"></div>
       <div id="text1">
@@ -53,6 +60,19 @@
       </div>
       <div id="vieri">
         <img alt="3" src="Pages/media/vieri.png">
+    </div>
+    </div>
+    </div>
+
+    <!-- Other pages -->
+     
+    <div id="page2" class="page">
+      <h1>Projects</h1>
+      <p>Here are some projects.</p>
+    </div>
+    <div id="page3" class="page">
+      <h1>About</h1>
+      <p>About Vieri Lambert and the VixLab.</p>
     </div>
     <div class="footer">
       <h3>(WIP) Copyright Vieri Lambert 2024/2025</h3>
